@@ -1,0 +1,27 @@
+language: r
+dist: trusty
+sudo: false
+
+branches:
+  only:
+    - master
+
+cache:
+  packages: yes
+  directories:
+    - $HOME/bin
+
+before_script:
+  - "Rscript -e 'blogdown::install_hugo()'"
+
+script:
+  - "Rscript -e 'blogdown::build_site()'"
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: 0a57d61d7f31b4d334e0fada350bc7e5e775f539
+  on:
+    branch: master
+  local_dir: public
+  fqdn: travis-blogdown.yihui.name

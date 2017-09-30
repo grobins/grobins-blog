@@ -1,4 +1,5 @@
 baseurl = "/"
+relativeurls = true
 languageCode = "en-us"
 title = "A Hugo website"
 theme = "hugo-lithium-theme"

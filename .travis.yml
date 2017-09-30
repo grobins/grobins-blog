@@ -25,3 +25,6 @@ deploy:
     branch: master
   local_dir: public
   fqdn: travis-blogdown.yihui.name
+
+  repo: username/username.github.io
+  target_branch: master

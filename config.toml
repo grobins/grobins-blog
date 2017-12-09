@@ -1,9 +1,9 @@
-baseurl = "grobins-testtravisdeloy.s3-website-us-west-2.amazonaws.com/public/"
+baseurl = "grobins.me.s3-website-ap-southeast-2.amazonaws.com/public/"
 relativeurls = true
 languageCode = "en-us"
 title = "A Hugo website"
 theme = "hugo-lithium-theme"
-googleAnalytics = ""
+googleAnalytics = "UA-110935368-1"
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
@@ -15,10 +15,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url = "/about/"
 [[menu.main]]
     name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
+    url = "https://github.com/grobins"
 [[menu.main]]
     name = "Twitter"
-    url = "https://twitter.com/rstudio"
+    url = "https://twitter.com/shotbyrobins"
 
 [params]
     description = "A website built through Hugo and blogdown."

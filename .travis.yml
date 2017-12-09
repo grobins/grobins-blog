@@ -20,6 +20,7 @@ deploy:
     secure: GO40EvCjRqcZNSINyV8FWMax2Mj08HRLi3cucvKNUldL3JtKi4h0OSfRs2SiVdQB5Rv7XL7WSf+/qXcjSFPfwjlClPT9lubOKEEYsq2I30WqpFfmCJiKhxU5D/VVI4Gytz3AWtinOPYELCI/XTVP5B6DWqpjpH3WR6lPP0kF8C51Hn9DZGpide4IKkOGmwBfSZvbYGjHlsLpUVxNVNuTlj6+wa35tMwu5UUAaK/GVNQMLJo5qSLfHufUkW07X1/Xqu+5juqtERri8El2dwazd/SLyNStzhjWu4aOytXvnZwM+TrINztxsm6viXfrZpEdbU/q+EENyEG2o/8mDeQd1mH3SsE7Jcq+lE3PTOz8alDOehG3wbcipknNkQXi0tHDzbOKtBNab83gnJwT4Galngym8+GydrC9T+YG0iJ2eqWcGUrBP7wR8pLb3cH1yU/EFW3RKmMDXD/gCTyBqQVX3RP+VSS2IfLyI9raUmq93sNd5gMea/gC+DY+p8Ei1ZrNUCcszdcVG9RM7PM849rrNReyk9uEzUH8Hy9ICi8z5CXO585cKjDdVndw49C6T7PsLcLZSMmENRxd36M+9UZ8lyL4Rketxsv3E6SNYHdA0xEgPFcYMXpfQJa7+lc6EJGw00EMahfBdUJ4ktKGPkXBx8pnlqUQ1ebftsLfyFw9LpU=
   bucket: grobins.me
   region: ap-southeast-2
+  local_dir: public
   acl: public_read
   on:
     repo: grobins/grobins-blog

@@ -1,4 +1,4 @@
-baseurl = "grobins.me.s3-website-ap-southeast-2.amazonaws.com/public/"
+baseurl = "grobins.me.s3-website-ap-southeast-2.amazonaws.com/"
 relativeurls = true
 languageCode = "en-us"
 title = "A Hugo website"

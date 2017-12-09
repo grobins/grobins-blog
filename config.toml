@@ -1,4 +1,5 @@
 baseurl = "/"
+baseurl = "grobins-testtravisdeloy.s3-website-us-west-2.amazonaws.com/public/"
 relativeurls = true
 languageCode = "en-us"
 title = "A Hugo website"
